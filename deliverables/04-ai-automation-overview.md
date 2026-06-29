@@ -1,0 +1,126 @@
+# Folionet — AI & Marketing Automation Overview
+**Prepared by:** Isabella Pocaterra, creator:you  
+**Date:** June 2026  
+**Scope:** Priority 2 per engagement brief — overview and prioritization, not built workflows
+
+---
+
+## THE CORE ARGUMENT
+
+A one-person internal team cannot run a multichannel marketing strategy manually. The only way Priority 1 (brand strategy) becomes executable at Folionet's current headcount is if AI handles content generation, research, auditing, and drafting — and the human handles judgment, approval, and publishing.
+
+The skill stack built during this engagement is that system.
+
+---
+
+## WHAT WAS BUILT
+
+During the research and strategy phase, a complete Claude-based marketing system was developed and deployed to a private GitHub repository (github.com/Pocate/folionet-claude-skills).
+
+The system consists of 7 skills — context files that load into Claude and enable any team member to generate on-brand, compliant content without starting from scratch.
+
+| Skill | What it does | Replaces |
+|-------|-------------|----------|
+| `folionet-icp` | Defines who Folionet is talking to — 3 profiles, triggers, signals | ICP deck, persona doc |
+| `folionet-voice` | Defines how Folionet sounds — tone, forbidden phrases, compliance rules, LinkedIn format | Brand voice guide, style guide |
+| `folionet-content-system` | Generates complete posts (LinkedIn + Email + WhatsApp) with CTA and link baked in | Copywriter |
+| `folionet-trends-research` | Weekly research system — 5 sources → 3 angles → 1 topic for the week | Social media analyst |
+| `folionet-content-calendar` | 90-day content plan — 30 posts mapped to weeks, formats, CTAs | Content calendar spreadsheet |
+| `folionet-linkedin-30posts` | Bank of 30 ready-to-publish posts across 7 angles | Content backlog |
+| `folionet-strategy-exercises` | 7 prompts to build the full /marketing-strategy skill in Folionet's Claude account | Strategy consultant sessions |
+
+---
+
+## HOW THE SYSTEM WORKS IN PRACTICE
+
+```
+Monday (45 min)
+└── Run folionet-trends-research
+    → 5 sources → Claude → 3 trend options → human picks 1
+
+Tuesday (15 min)
+└── Run folionet-content-system with chosen trend
+    → Claude generates LinkedIn post + email + WhatsApp
+    → Human reviews compliance checklist
+    → Publish LinkedIn
+
+Wednesday (15 min)
+└── Human approves email → Mailchimp sends
+
+Thursday (15 min)
+└── Second LinkedIn post from 30-post bank
+    → Human approves → Publish
+
+Friday (designer, 30 min)
+└── Repurpose Tuesday's LinkedIn post as Instagram carousel
+```
+
+**Total human time: ~2 hours/week.**  
+**AI handles:** research synthesis, content drafting, compliance flagging, format adaptation.  
+**Human handles:** final judgment, approval, publishing.
+
+---
+
+## EFFORT / IMPACT ASSESSMENT
+
+| Initiative | Effort | Impact | Priority |
+|-----------|--------|--------|----------|
+| Deploy skills to Folionet Claude account | Low (clone GitHub repo) | High — immediate content production | Now |
+| Run 7 strategy exercises to build /marketing-strategy | Medium (4-6 hours total, one session) | High — feeds all future content | Week 1 |
+| Set up Mailchimp automation (welcome sequence) | Low (3 emails already written) | High — converts subscribers to leads 24/7 | Week 1 |
+| Add compliance audit step to content workflow | Low (one prompt) | High — protects against regulatory risk | Week 1 |
+| WhatsApp Business API setup | Medium | High — closes the biggest channel gap | Month 2 |
+| Typeform pre-call qualifier | Low | Medium — filters CEO time | Week 2 |
+| Metricool integration for folionet-data skill | Low (export + paste) | High — weekly performance loop | Week 3 |
+
+---
+
+## WHAT AI CANNOT DO — WHERE HUMAN JUDGMENT STAYS
+
+This is as important as what AI can do.
+
+**Always human:**
+- Compliance final review before publishing (CCO or designated reviewer)
+- CEO voice calibration — AI drafts, CEO approves
+- Client relationship management — discovery calls, WhatsApp personal messages
+- Strategic decisions — what to double down on, what to stop
+
+**Human until Month 2, then automate:**
+- Trend selection (currently a judgment call — automate once patterns emerge)
+- Instagram content (currently designer-manual — automate repurposing in Month 2)
+
+---
+
+## THE RECOMMENDED NEXT STEP FOR AUTOMATION
+
+**Month 1 — foundation:**
+Deploy the skills. Run strategy exercises. Set up Mailchimp welcome sequence. All content generated through Claude with human approval.
+
+**Month 2 — optimization:**
+Add Metricool weekly export → folionet-data skill reads it → tells the team what worked and what to change. This closes the feedback loop and makes the system self-improving.
+
+**Month 3 — scale:**
+Evaluate paid amplification (LinkedIn Ads, Meta) based on Month 1-2 data. AI generates ad copy variants. Human A/B tests.
+
+---
+
+## THE COMPLIANCE GUARDRAIL FOR A ONE-PERSON WORKFLOW
+
+Every piece of content generated by this system passes through a built-in compliance check before it reaches a human for review. The folionet-content-system skill includes:
+
+```
+Before publishing, verify:
+□ No specific return promises
+□ No past performance as future guarantee
+□ No client testimonials without CCO approval
+□ Hypothetical scenarios clearly framed
+□ Regulatory footer in all emails
+□ Comparative claims with factual backing
+□ Folionet Advisers content reviewed by CCO
+```
+
+This is not a corporate approval chain. It is a 30-second checklist that one person can run before hitting publish.
+
+---
+
+*AI & Automation overview v1 — update after Month 1 data to refine effort/impact estimates*
