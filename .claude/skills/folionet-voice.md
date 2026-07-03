@@ -1,5 +1,5 @@
 # folionet-voice
-**Version:** v0 — skeleton built from diagnostic, industry research, competitive audit, and meeting notes. Update after receiving: top 10 posts data, CEO informal language, client survey responses.
+**Version:** v1 — updated with real documents: captions Mayo-Junio 2026, newsletters, presentations, Metricool data.
 
 ## What this skill does
 Load this before writing any content for Folionet — LinkedIn posts, emails, carousels, CTAs, webinar copy. It defines how Folionet sounds, what it never says, and the exact tone that builds trust with the ICP.
@@ -11,114 +11,150 @@ Load this before writing any content for Folionet — LinkedIn posts, emails, ca
 
 ---
 
-## VOICE IDENTITY
-Folionet sounds like a trusted advisor who has seen it all — not a salesperson, not a tech startup, not a bank. The voice is:
+## COMPANY FACTS (verified from documents)
+- Founded: 2017
+- Countries served: 50+
+- SIPC protection: $500,000 per account (up to $250,000 cash)
+- Regulated: FINRA, SEC, SIPC
+- Entities: Folionet Financial LLC (broker-dealer) + Folionet Advisers LLC (RIA, Florida)
+- Newsletter name: "El Termómetro" — biweekly market analysis
 
-- **Sophisticated but not cold.** Knows the market deeply. Explains it simply.
-- **Direct but not pushy.** Says what needs to be said. Never hypes.
-- **Educational but not condescending.** Treats the ICP as an intelligent adult who is new to US markets, not as a beginner who needs hand-holding.
-- **Aspirational but grounded.** Speaks to where the ICP wants to go, anchored in real data and regulatory credibility.
+---
 
-**The reference:** Morgan Housel's way of talking about money — behavior and ideas, not charts and signals. The CEO speaks like someone who thinks deeply about how money actually works in people's lives.
+## VOICE IDENTITY — from real content
+
+Folionet's actual voice (from captions, newsletters, presentations) is:
+
+**More analytical than warm.** The newsletter covers Fed decisions, BOJ rate hikes, SpaceX IPOs, and crypto crashes with real financial terminology. This is not dumbed-down content — it respects the audience's intelligence.
+
+**Educational first, promotional never.** The best-performing posts (452 interactions) don't sell. They teach. "Tener una cuenta bancaria es un buen primer paso, pero la inflación erosiona..." — zero pitch, pure insight.
+
+**Direct with rhetorical questions.** Almost every caption ends with a question that invites engagement: "¿Cuál es la duda que hoy no te deja avanzar con tus inversiones?" / "¿Cómo evalúas el riesgo?"
+
+**Confident about the market.** They state market views clearly. "La bolsa es volátil a corto plazo. A largo plazo, tiende a ser más predecible." No hedging, no excessive disclaimers in the body — disclaimers go at the end.
+
+**The reference voice:** Morgan Housel + Bloomberg financial journalism in Spanish. Sophisticated but readable. Data-driven but human.
+
+---
+
+## WHAT ACTUALLY WORKS — from Metricool data (June 2026)
+
+Top performing posts by interactions:
+
+**#1 — Cost of inaction (452 interactions, 16.39K impressions)**
+"Tener una cuenta bancaria es un buen primer paso para el ahorro, pero en el tiempo la inflación erosiona..."
+→ Angle: bank savings lose value over time. Insight, no pitch.
+
+**#2 — Big market events (399 interactions, 17K impressions)**
+"Estas empresas, llamadas las 7 magníficas, hoy son valoradas en más de $20 billones y serían la segunda economía del mundo..."
+→ Angle: market education about specific companies/events the ICP already hears about.
+
+**#3 — Long-term patience (367 interactions, 10.67K impressions)**
+"La paciencia paga. Al invertir, los resultados de hoy son consecuencia de las decisiones de hace años..."
+→ Angle: behavioral finance. Time + consistency = results.
+
+**What these have in common:**
+- Start with a fact or tension the ICP already feels
+- No direct product mention in the body
+- End with a question or data point
+- Short, punchy sentences
+
+**What underperformed (June 8-14 — dropped 88%):**
+- IPO-focused content: 6,880 impressions but only 137 interactions
+- Posting about specific IPOs = lower engagement than behavioral/insight posts
 
 ---
 
 ## TONE BY CHANNEL
 
-**LinkedIn (CEO voice — primary)**
-Thoughtful, data-informed, slightly provocative. Opens with a tension or a surprising fact. Builds to a clear point of view. Ends with a soft CTA. Never sells directly in the post — sells through credibility.
+**Instagram (primary channel — 37K followers)**
+Educational carousels. Market data. Behavioral finance insights. Rhetorical questions. Same analytical voice as the newsletter but visually presented. Top formats: carousel (performs best), single image with data.
 
-**Email / Newsletter**
-Warmer than LinkedIn. More personal. The CEO talking to someone who already trusts them. Educational, with one clear action per email.
+**Newsletter "El Termómetro" (biweekly)**
+Full market analysis. Covers specific events: company IPOs, Fed decisions, macro moves. Tone: financial analyst explaining to an intelligent non-expert. 3-5 news items per issue + context + what it means for the LATAM investor.
 
-**Instagram carousels**
-Clear, visual, educational. Each slide has one idea. No jargon. The tone of a knowledgeable friend explaining something over coffee.
+**LinkedIn (starting fresh — no existing data)**
+Adapt the Instagram voice for a professional audience. Same analytical voice, longer format, personal CEO perspective. Target: the professional/entrepreneur who manages capital, not the retail investor learning basics.
 
-**CTAs across all channels**
-Never aggressive. Never "buy now." Always an invitation: "Si tienes capital que no está trabajando como debería, conversemos." or "¿Quieres saber si una Cuenta Asesorada es para ti?"
+**Email**
+Warmer than Instagram. More personal. Educational with one clear CTA per email.
+
+**WhatsApp (Month 2)**
+Personal, direct, max 150 words. Post-call follow-up only. Pre-approved templates required (FINRA compliance).
 
 ---
 
-## WHAT FOLIONET ALWAYS SAYS
+## WHAT FOLIONET ACTUALLY SAYS (real phrases from documents)
 
-- Explains what Cuentas Asesoradas actually is — no one else does
-- Mentions regulatory backing (FINRA/SEC) as the primary trust signal
-- Speaks to the cost of inaction: money sitting idle losing value to inflation
-- Connects investing to the ICP's real life — their business, their family, their future
-- Uses real market data to anchor every claim
-- Positions the CEO as an authority on LATAM investing in the US — not a salesman
+**From presentations:**
+- "El gran error latino: mantienen todos los ahorros en cuentas bancarias"
+- "Los EE.UU. tiene la sociedad más rica del mundo porque es la mayor población con cuentas de inversión"
+- "Tu cuenta protegida: regulados por el SIPC, protegemos tu cuenta por $500,000"
+- "Invertir a largo plazo funciona — la probabilidad de ganar dinero aumenta con el tiempo"
+
+**From captions (real voice):**
+- "La paciencia paga. Al invertir, los resultados de hoy son consecuencia de las decisiones de hace años."
+- "La bolsa es volátil y muy peligrosa a corto plazo. A largo plazo, tiende a ser más predecible."
+- "El conocimiento es el activo con mayor retorno que puedes adquirir."
+- "Quedarse fuera por indecisión es el riesgo más alto y costoso que puedes asumir hoy."
+- "Invertir $100 al mes puede parecer poco… hasta que pasa el tiempo."
+- "La clave no está en adivinar el mejor momento para invertir, sino en hacerlo de forma constante."
+
+**From newsletter (sophisticated voice):**
+- Covers specific events: SpaceX, BOJ rate hike, Vanguard vs BlackRock, Fed decisions
+- Uses financial terminology correctly: carry trade, activos bajo gestión, oferta pública inicial
+- Always contextualizes for LATAM: "¿qué significa esto para el inversor latinoamericano?"
 
 ---
 
 ## WHAT FOLIONET NEVER SAYS
 
-- No specific return promises or performance claims ("gana X%", "rendimiento de X")
-- No testimonials from specific clients without compliance approval
-- No trading language: "compra ahora", "señales", "análisis técnico"
-- No gamification: "invierte desde $1", "gana dinero fácil"
-- No generic fintech copy: "transforma tu futuro financiero", "empieza tu camino hacia el éxito"
-- No fear-based selling: "¡el mercado se está cayendo!"
-- No urgency tactics that feel manipulative
+- No specific return promises: "gana X%", "rendimiento garantizado"
+- No testimonials without CCO approval
+- No trading language: "señales de compra/venta", "análisis técnico"
+- No fear-based selling: "¡el mercado se cae, actúa ahora!"
+- No generic fintech copy: "transforma tu futuro financiero", "empieza tu camino al éxito"
+- No crypto promotion of any kind
+- No "rendimientos pasados garantizan resultados futuros" — always add disclaimer
 
 ---
 
-## LANGUAGE PATTERNS — what sounds like Folionet
+## FORMATTING RULES
 
-**Phrases that work:**
-- "Tu dinero debería estar trabajando mientras tú trabajas."
-- "No necesitas tiempo para invertir. Necesitas al experto correcto."
-- "Regulado por la SEC. No es una promesa. Es una obligación legal."
-- "El mercado americano no es para americanos. Es para quien sabe cómo acceder."
-- "Cuentas Asesoradas: la categoría que nadie en América Latina te había explicado."
-- "Invertir no es un hobby. Es una decisión sobre tu capital."
-- "Lo que los americanos saben sobre invertir que aún no llegó a América Latina:"
+**Instagram caption:**
+- Hook: 1-2 lines that state a tension or fact
+- Body: 3-5 short paragraphs or bullets
+- Close: rhetorical question that invites comment
+- CTA (if any): "Comenta X para enviarte la guía" or "Link en bio"
+- Hashtags: 5-10 relevant financial hashtags in Spanish
 
-**Sentence structure that works:**
-- Short declarative statements. Then the explanation.
-- Questions that the ICP is already asking themselves.
-- Data point → what it means → what Folionet does about it.
-- "No es X. Es Y." (Reframing)
+**LinkedIn post (new channel — adapt from Instagram voice):**
+- Opening line alone, creates tension or curiosity
+- Body: short paragraphs, one idea each, white space between
+- No hashtag storms: max 3 hashtags
+- Length: 150-300 words
+- End with question or soft CTA
 
-**Words that belong in Folionet's vocabulary:**
-- Capital / patrimonio / portafolio
-- Asesoría / asesor / gestión experta
-- Regulado / FINRA / SEC / respaldo
-- Diversificación / dólares / mercado americano
-- Confianza / seguridad / transparencia
-- Profesional / empresario / ejecutivo
-
-**Words to avoid:**
-- "Fácil" / "rápido" / "millonario"
-- "Gratis" (except when literally true and relevant)
-- "Revolucionario" / "innovador" (generic fintech)
-- "Empoderar" / "transformar" (overused)
-- "Desde $1" or any micro-investment framing
+**Newsletter:**
+- 3-5 market news items per issue
+- Each item: what happened + why it matters for LATAM investors
+- Tone: financial analyst, confident, no hype
+- Footer: always include regulatory disclosure
 
 ---
 
-## FORMATTING RULES FOR LINKEDIN
-
-- Opening line: stands alone. Creates tension or curiosity. Max 10 words.
-- Body: 3-5 short paragraphs or bullet points. One idea each.
-- No hashtag storms. Max 3 hashtags if any: #InversionesLatam #MercadoAmericano #CuentasAsesoradas
-- Line breaks between every idea — white space reads better on mobile.
-- Emojis: none or maximum 1. Never decorative.
-- Length: 150-300 words. Never longer.
-
----
-
-## COMPLIANCE RULES (FINRA/SEC)
-*These are non-negotiable. Every piece of content must pass these before publishing.*
+## COMPLIANCE RULES (FINRA/SEC — non-negotiable)
 
 - No specific return promises or percentage claims
-- No "past performance" statements as guarantees
-- No client testimonials without explicit compliance approval
-- Comparative claims require factual substantiation
-- All content referencing Folionet Advisers LLC (the RIA) must be reviewed by the CCO
-- Hypothetical scenarios ("si hubieras invertido $10K en el S&P 500 en 2015...") are generally compliant — use these instead of client-specific results
+- No past performance framed as guarantee of future results
+- No client testimonials without explicit CCO approval
+- Hypothetical scenarios clearly framed: "si hubieras invertido $10K en 2016..."
+- Disclaimer always at end: "No es una recomendación de inversión. Las inversiones pueden perder valor."
+- All content referencing Folionet Advisers LLC (RIA) reviewed by CCO before publishing
+- WhatsApp requires opt-in + FINRA-compliant archiving
 
 ---
 
 ## UPDATE LOG
-- v0 — June 24 2026 — built from diagnostic + competitive audit + meeting notes + site audit. No actual post performance data or CEO language samples yet.
-- v1 — [update after receiving top 10 posts + CEO informal writing + client survey responses]
+- v0 — June 24 2026 — built from diagnostic + competitive audit + external research
+- v1 — July 3 2026 — updated with real documents: captions Mayo-Junio 2026, newsletters El Termómetro, brand presentations, Metricool performance data (June 2026). Key corrections: founded 2017 not 2014, Instagram is primary channel with 37K followers, top performing content is behavioral/insight not promotional.
