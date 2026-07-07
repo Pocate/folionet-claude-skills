@@ -152,8 +152,22 @@ Personal, direct, max 150 words. Post-call follow-up only. Pre-approved template
 - Disclaimer always at end: "No es una recomendación de inversión. Las inversiones pueden perder valor."
 - All content referencing Folionet Advisers LLC (RIA) reviewed by CCO before publishing
 - WhatsApp requires opt-in + FINRA-compliant archiving
+- 
+## REAL BRAND GUIDELINES (source: marketing team, July 2026)
 
----
+**Colors:**
+| Use | Light theme | Dark theme |
+|---|---|---|
+| Headings | #171C25 | #FFFFFF |
+| Subtitle/body | #4C5669 | #E3E6EC |
+| Footer/disclosures | #8C94A3 | #B3B9C6 |
+| Links | #171C25 | #FFFFFF |
+| Primary | #466AFF / #284DE3 | #7993FD |
+| Positive | #138025 | #67EB7C |
+| Negative | #BB2B4A | #E03157 |
+| Background | #FFFFFF / #F5F7FA | #171C25 / #303646 |
+
+**Important note:** Primary is used very sparingly — sometimes not at all — to maintain the
 
 ## UPDATE LOG
 - v0 — June 24 2026 — built from diagnostic + competitive audit + external research
