@@ -291,3 +291,14 @@ Calificación 1-10 y máximo 3 cambios concretos si los necesita.
 
 ## UPDATE LOG
 - v0 — June 24 2026 — sistema completo LinkedIn + Email + WhatsApp. Links placeholder — actualizar con URLs reales de Folionet antes de activar.
+- ## DIFERENCIACIÓN COMPETITIVA — TENER SIEMPRE PRESENTE
+
+Investigación de competencia (Julio 2026) confirmó: el único competidor directo real es **Quiena Inversiones** (mismo modelo RIA, pero frío/automatizado). El resto (Hapi, Ualá, Trii) son brokers autogestionados — audiencia distinta, no compiten por el mismo servicio.
+
+**El ángulo diferenciador central que todo contenido debe reforzar cuando sea relevante:**
+> "Asesor humano y regulado — no un algoritmo frío (como Quiena) ni trading gamificado (como Hapi/Trii)."
+
+**Reglas prácticas derivadas de esto:**
+- Cuando el contenido hable de gestión de portafolio, mencionar o implicar que hay una persona real detrás — no un robo-advisor.
+- Cuando sea relevante, nombrar el dolor específico del país (CCL en Argentina, impuestos por invertir afuera en Colombia, riesgo cambiario en Venezuela) en vez de generalizar a "LATAM."
+- Nunca comparar a Folionet contra un competidor por nombre en contenido público — la diferenciación se comunica por posicionamiento propio, no atacando a otros.
