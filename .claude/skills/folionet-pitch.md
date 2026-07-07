@@ -61,6 +61,23 @@ Cuenta Asesorada: gestión experta y regulada (SEC) de un portafolio en el merca
 "Fue un gusto hablar. Sin ninguna presión — el one-pager que te compartí tiene todo lo que cubrimos, por si quieres revisarlo con calma. Aquí estoy cuando tenga sentido para ti."
 
 ---
+## CONFIRMED COMMERCIAL TERMS (source: team, July 2026)
+
+**Cuenta Asesorada (CA - Advised Account):**
+- Minimum: $5,000 USD — CONFIRMED, no longer "to verify"
+- Cost: 1% annual fee, charged quarterly
+- 5 available investment profiles: Aggressive, Growth, Income, Moderate, Liquid Assets
+- Instruments: primarily diversified ETFs, corporate bonds, or short-term U.S. Treasury bonds, depending on the profile
+- Deposits and withdrawals: free (verify exact capital-availability policy before stating it in content)
+
+**Self-Directed Account:**
+- $0.98 fee per buy/sell trade — same cost regardless of trade size
+- Access to 10,000+ U.S.-listed stocks and ETFs, plus OTC and ADR markets
+- Tools: real-time execution, key metrics (volume, P/E, performance), advanced order types, automatic dividend reinvestment
+
+**Competitors according to the company itself (complements the LATAM-specific analysis):**
+- Direct: Hapi, eToro, Interactive Brokers
+- Indirect: Robinhood, Wealthfront, Betterment
 
 ## WHAT THIS SKILL NEVER DOES
 - Never promises a return, a timeline to results, or uses a specific client's outcome as proof
