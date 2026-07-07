@@ -40,6 +40,20 @@ If Metricool isn't connected yet, track these 5 by hand every Monday — 10 minu
 | 5. Activation | CA vs. self-directed split | 30%+ CA |
 | 6. Retention/Referral | Referral rate | 15-20% of new clients |
 
+## REAL BENCHMARKS — EMAIL (replaces the Stage 3 estimates above)
+
+Source: real Mailchimp export, last 90 days (13 sends, 139,829 recipients).
+
+| Metric | Estimated (above) | Real | 
+|---|---|---|
+| Open rate | 35-45% | **26.9%** |
+| Click rate | 5-8% | **0.27%** |
+| Delivery rate | — | 99.7% (healthy) |
+| Unsubscribe rate | — | 0.08% (healthy) |
+| Attributed revenue | — | $0 across 13 sends |
+
+**This is a flag, not just a lower number.** A 0.27% click rate points to a subject line / CTA / segmentation problem, not a cadence problem. Investigate before simply resetting the benchmark downward — delivery and unsubscribe rates are both healthy, so the list itself isn't the issue.
+
 **Rule of thumb when reading any export:** find the stage where the number is furthest below benchmark — that's where to focus, not wherever felt most visible that week.
 
 ---
