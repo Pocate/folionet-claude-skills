@@ -1,0 +1,97 @@
+# folionet-glosario
+**Version:** v0 — Glosario de términos de inversión, lenguaje oficial de Folionet.
+**Purpose:** Definiciones exactas y ya aprobadas por compliance, tomadas de material oficial de Folionet (Acuerdos y Divulgaciones). Usar estas definiciones textuales cuando el contenido explique un término técnico — nunca redactar una definición propia que pueda no calzar con el ADV Part 2A.
+
+---
+
+## CÓMO USAR ESTE GLOSARIO
+
+Cuando generes contenido educativo que mencione un término técnico (bonos, capitalización, tipos de fondos, etc.), consulta primero si el término está aquí. Si está, usa esta definición como base — puedes simplificar el lenguaje para redes sociales, pero el significado y los matices de riesgo deben mantenerse intactos.
+
+---
+
+## DEFINICIONES
+
+**Bono Corporativo**
+Tipo de activo que representa una deuda emitida por una compañía con el fin de obtener capital. Al ser adquirido por un inversionista, recibe un número predeterminado de pagos de interés a una tasa fija o variable.
+
+**Bono Gubernamental**
+Tipo de activo que representa una deuda emitida por el gobierno de un país para cubrir sus gastos y obligaciones. Los bonos emitidos por Estados Unidos se consideran de muy bajo riesgo ya que se encuentran respaldados por el gobierno que los emite.
+
+**Acción Preferente**
+Tipo de activo cuyas características son una combinación entre acciones ordinarias y bonos. El inversionista suele recibir dividendos más altos que bonos y tiene prioridad de capital al momento que una compañía se liquida. Suelen tener mayor rendimiento que los bonos, pero mucho menos que las acciones.
+
+**Título Hipotecario**
+Tipo de inversión de renta fija que genera ingresos por intereses a través de conjuntos de hipotecas sobre viviendas. Suelen considerarse muy seguros ya que tienen respaldo de las propiedades en caso de impago.
+
+**Grado de Inversión**
+Se refiere al tipo de riesgo de un bono — son aquellos que se considera tienen menor riesgo de impago y reciben mayor calificación por parte de las agencias de calificación crediticia.
+
+**Bonos de Alto Rendimiento ("High Yield")**
+Bonos con calificación crediticia inferior a BBB- (alto riesgo) según S&P y Moody's. Pueden implicar altos riesgos de impago, fluctuaciones de precios y/o iliquidez debido a cambios en la calidad crediticia o condiciones del mercado. Estos riesgos se elevan en periodos de recesión económica, volatilidad de mercados y tasas de interés elevadas.
+
+**Bienes Raíces**
+Activos respaldados por una propiedad real. Quien invierte puede esperar recibir ingresos por pago de dividendos.
+
+**Bienes de Primera Necesidad**
+Productos básicos: alimentos, bebidas, tabaco, productos domésticos, de limpieza personal, entre otros.
+
+**Capitalización Grande**
+Empresas con gran trayectoria, sólidas ventas, consumidores en el mercado global, y valor de activos superior a $10 mil millones.
+
+**Capitalización Mediana**
+Empresas con sólida trayectoria, ventas continuas, posición importante en el mercado local, y valor de activos entre $2 mil y $10 mil millones.
+
+**Capitalización Pequeña**
+Empresas de tamaño modesto, ventas continuas, mercado local, y valor de activos entre $300 millones y $2 mil millones.
+
+**Salud**
+Empresas que prestan servicios, fabrican equipos, venden productos, u ofrecen seguros relacionados al área de salud.
+
+**Servicios Básicos**
+Empresas que proporcionan agua, alcantarillado, aseo urbano, electricidad y gas natural.
+
+**Servicios Financieros**
+Empresas que ofrecen servicios bancarios, de inversión, seguros, o cualquier intermediación financiera.
+
+**Energía**
+Empresas dedicadas a exploración, extracción y procesamiento de petróleo y gas.
+
+**Energías Alternativas**
+Empresas dedicadas a producción de energía renovable con protección al medio ambiente.
+
+**Tecnología**
+Empresas de investigación, desarrollo o distribución de productos y servicios tecnológicos.
+
+**Semiconductores**
+Empresas que diseñan y fabrican chips de computadoras y componentes relacionados.
+
+**Productos Derivados**
+Instrumentos financieros cuyo valor deriva de la variación de precios de otro activo ("activo subyacente"). Pueden ser muy volátiles por el uso de apalancamiento, lo cual puede incrementar tanto el riesgo como el rendimiento. Incluye los riesgos del propio activo subyacente.
+
+**Consumo Discrecional**
+Empresas dedicadas a automóviles y componentes, bienes de consumo duradero, prendas de vestir, servicios de consumo (hoteles, restaurantes, ocio), entretenimiento y comercio minorista.
+
+**Assets Under Management (AUM)**
+"Activo bajo administración" — cantidad de dinero que una institución financiera gestiona para sus clientes.
+
+**Rendimiento de los Dividendos en los Últimos 12 Meses**
+Suma del total de pagos de intereses y dividendos de los últimos 12 meses de un fondo, dividido por el precio final de la acción (NAV) del último mes, más ganancias de capital distribuidas en el mismo período. Da una idea del rendimiento que el fondo está pagando actualmente.
+
+**Rendimiento de Dividendos Indicativo**
+Retorno anual proyectado de una inversión, basado en los pagos de dividendos más recientes de los últimos 12 meses. Se calcula multiplicando el dividendo por la periodicidad de pago del fondo, dividido entre el precio del activo.
+
+---
+
+## DISCLAIMER OBLIGATORIO AL USAR ESTE GLOSARIO
+
+Cualquier contenido que use estas definiciones para explicar un producto de inversión específico (no solo el término en abstracto) debe incluir o enlazar el disclaimer estándar de Folionet Advisers LLC:
+
+> "El contenido de este documento ha sido preparado con fines informativos. No constituye una oferta, recomendación o solicitud de compra o venta de valores. Las inversiones pueden perder valor, incluyendo la pérdida parcial y total del capital. El rendimiento histórico no garantiza el comportamiento futuro."
+
+Esto aplica especialmente a contenido sobre: Bonos de Alto Rendimiento, Productos Derivados, y cualquier término que incluya riesgo de volatilidad o impago — estos requieren el disclaimer completo, no solo la mención genérica de riesgo.
+
+---
+
+## UPDATE LOG
+- v0 — Julio 2026 — glosario construido a partir del documento oficial de Acuerdos y Divulgaciones de Folionet. Todas las definiciones son texto oficial aprobado, no redactadas por este sistema.
