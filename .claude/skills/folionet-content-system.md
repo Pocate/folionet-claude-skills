@@ -3,7 +3,23 @@
 **Purpose:** Take a topic → output a complete, ready-to-publish piece with post text, CTA, link, hashtags, and format — nothing to fill in.
 
 ---
+# folionet-content-system
+**Version:** v0 — Complete content production system. LinkedIn + Email + WhatsApp.
+**Purpose:** Take a topic → output a complete, ready-to-publish piece with post text, CTA, link, hashtags, and format — nothing to fill in.
 
+---
+
+## DIFERENCIACIÓN COMPETITIVA — TENER SIEMPRE PRESENTE
+
+Investigación de competencia (Julio 2026) confirmó: el único competidor directo real es **Quiena Inversiones** (mismo modelo RIA, pero frío/automatizado). El resto (Hapi, Ualá, Trii) son brokers autogestionados — audiencia distinta, no compiten por el mismo servicio.
+
+**El ángulo diferenciador central que todo contenido debe reforzar cuando sea relevante:**
+> "Asesor humano y regulado — no un algoritmo frío (como Quiena) ni trading gamificado (como Hapi/Trii)."
+
+**Reglas prácticas derivadas de esto:**
+[... esto es lo que falta ...]
+
+---
 ## CTA LIBRARY
 *Use these exact CTAs. Never invent new ones. Pick based on funnel stage.*
 
@@ -294,6 +310,38 @@ Evalúa:
 
 Calificación 1-10 y máximo 3 cambios concretos si los necesita.
 ```
+
+---
+
+## PRE-PUBLISH AUDIT
+*Run this before anything goes live — LinkedIn, email, WhatsApp, or landing pages. This is the final gate after the compliance note in the content prompt above.*
+
+Copia y pega esto en Claude antes de publicar:
+
+\`\`\`
+Audita este contenido antes de publicar.
+
+Revisa:
+- Voz de marca: ¿suena a Folionet según /folionet-voice, o genérico?
+- Riesgo de compliance: promesas de retorno específicas, performance 
+  pasado presentado como garantía, testimonios sin aprobación de CCO, 
+  falta el footer regulatorio
+- Links rotos o faltantes: ¿el CTA tiene link? ¿es el correcto? 
+  ¿quedó algún placeholder tipo [LINK-DISCOVERY] sin reemplazar?
+- UTM tracking: ¿todos los links trackeables están tageados?
+- Claims factuales: números, comparaciones o estadísticas que 
+  necesitan fuente o aprobación de CCO
+- Typos / formato: hashtags dentro del límite, día y canal 
+  correctos, formato correcto en mobile
+
+Para cada problema: nombra el post/archivo, el riesgo, y el fix.
+
+Luego califica: LISTO / NECESITA AJUSTES / NO LISTO
+\`\`\`
+
+**Cuándo correrlo:** siempre, después de generar contenido con el prompt de arriba y antes de que un humano lo apruebe para publicar. Es el checklist de 30 segundos, no una cadena de aprobación corporativa.
+
+---
 
 ---
 
