@@ -19,6 +19,39 @@ Investigación de competencia (Julio 2026) confirmó: el único competidor direc
 **Reglas prácticas derivadas de esto:**
 [... esto es lo que falta ...]
 
+## REFERENCIA — FLUJO DE ONBOARDING
+*Fuente: Guía de Onboarding oficial de Folionet. Usar estos pasos exactos cuando el contenido hable del proceso de apertura de cuenta — nunca inventar o simplificar pasos.*
+
+### Los 13 pasos reales
+
+**Crear tu cuenta**
+1. Correo electrónico y contraseña (mínimo 8 caracteres, una letra, un número, una mayúscula, un carácter especial)
+2. Código de verificación enviado al correo
+3. Selección de tipo de cuenta (Personal / Autogestionada o Asesorada — con código de referido si aplica)
+
+**Validar tu cuenta**
+4. Datos personales según documento de identidad
+5. Lugar de residencia / nacionalidad (clientes en más de 50 países — si reside en EE.UU., requiere SSN/ITIN)
+6. Datos residenciales (dirección completa — una dirección incompleta retrasa la aprobación)
+7. Estatus laboral (empleado / desempleado / retirado / estudiante)
+
+**Verificar tu identidad**
+8. Ingresos y perfil de inversionista
+9. Método de depósito (banco de EE.UU., transferencia internacional, tarjeta de débito, u otro bróker)
+10. Documento de identidad (foto + datos)
+11. Información adicional (preguntas de cumplimiento)
+12. Términos y Condiciones
+13. Envío para revisión — aprobación por correo
+
+### Datos factuales verificados, listos para usar en contenido
+- **"Clientes en más de 50 países"** — dato de autoridad/alcance, con fuente oficial.
+- El proceso completo se describe en material oficial como algo que se completa en pocos minutos con el documento de identidad a la mano — usar **"en menos de 10 minutos"** como framing, nunca "fácil" o "sencillo" (palabras prohibidas en folionet-voice).
+
+### Regla de uso
+Cualquier post, email o guía de soporte que mencione el proceso de apertura de cuenta debe reflejar estos 13 pasos con precisión — no resumir de memoria ni inventar pasos intermedios. Si se simplifica para un formato corto (ej. carrusel de Instagram), agrupar en las 3 fases (Crear → Validar → Verificar), nunca omitir la fase de verificación de identidad ya que es un requisito regulatorio, no opcional.
+
+---
+
 ---
 ## CTA LIBRARY
 *Use these exact CTAs. Never invent new ones. Pick based on funnel stage.*
