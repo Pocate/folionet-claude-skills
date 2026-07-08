@@ -1,0 +1,73 @@
+---
+name: folionet-content-matrix
+description: >
+  Genera 56 ideas de post (7 pilares x 8 formatos) en una tabla, cruzando los ángulos ya definidos en folionet-linkedin-30posts con formatos de contenido probados. Usar cuando se pida "ideas de post", "matriz de contenido", "qué publico esta semana", "ideación de contenido", o "mapea el contenido del mes".
+---
+
+# Folionet Content Matrix
+**Basado en:** content-matrix (Charlie Hills / Justin Welsh matrix), adaptado a los 7 ángulos ya definidos en `folionet-linkedin-30posts`.
+
+## CRÍTICO: Auto-inicio
+Al activarse, ir directo al Paso 1.
+
+## Paso 1 — Confirmar los pilares
+No preguntar por pilares nuevos — Folionet ya tiene 7 ángulos definidos y probados en `folionet-linkedin-30posts`:
+
+1. Definición de categoría (Cuenta Asesorada)
+2. Mitos
+3. Dato / Data Breakdown
+4. Historia CEO / Autoridad del Fundador
+5. Brecha de conocimiento
+6. Costo del status quo
+7. Comparación
+
+Si el usuario quiere agregar o quitar un pilar, preguntar cuál y ajustar — máximo 7, para no diluir la matriz.
+
+## Paso 2 — Construir la matriz
+
+Tabla con:
+- **Columnas (8 formatos):**
+  1. Accionable
+  2. Educativo/Inspirador
+  3. Analítico
+  4. Reencuadre (contrarian, pero siempre con sustento — nunca opinión sin base)
+  5. Observación
+  6. X vs Y
+  7. Presente vs. Futuro
+  8. Listicle
+
+- **Filas:** los 7 pilares de arriba
+
+Cada celda: una idea de post específica y concreta, no un tema genérico. Bien: "3 preguntas que revelan si necesitas una Cuenta Asesorada." Mal: "Cuentas Asesoradas."
+
+### Definiciones de formato (con filtro de compliance aplicado)
+
+- **Accionable:** cómo hacer algo específico (ej. cómo calcular si tu capital está perdiendo valor por inflación).
+- **Educativo/Inspirador:** historia real o hipotética que ilustra un concepto — *nunca testimonio de cliente sin aprobación de CCO*. Usar casos hipotéticos claramente framed como tal.
+- **Analítico:** por qué algo funciona como funciona (ej. por qué un RIA tiene obligación fiduciaria y un broker no).
+- **Reencuadre:** contradice una creencia común del ICP, con dato o lógica que lo sustente — no solo opinión.
+- **Observación:** tendencia poco discutida que el CEO ha notado en el mercado LATAM.
+- **X vs Y:** comparación entre dos entidades — *toda comparación necesita sustento factual* (regla de folionet-voice).
+- **Presente vs. Futuro:** estado actual vs. proyección — *la proyección debe ir explícitamente marcada como hipotética, nunca como garantía* (ver regla de compliance sobre escenarios hipotéticos).
+- **Listicle:** lista de errores comunes, preguntas, o pasos (ej. "3 señales de que necesitas una Cuenta Asesorada").
+
+## Paso 3 — Salida
+
+Tabla markdown simple (pilares como filas, formatos como columnas). Si se está en un contexto con soporte de tablas interactivas, usarlas; si no, tabla markdown plana.
+
+Después de la tabla, una frase señalando la idea más fuerte de toda la matriz y por qué.
+
+## Paso 4 — Siguiente paso
+Preguntar:
+> ¿Alguna celda que quieras que convierta en post completo? Dime pilar + formato (ej. "Mitos × Reencuadre") y lo mando al prompt de folionet-content-system.
+
+## REGLAS
+
+- Nunca reutilizar la misma idea entre pilares distintos — cada celda es específica a su cruce.
+- Toda idea de la columna "Presente vs. Futuro" debe evitar lenguaje de certeza sobre movimientos de mercado.
+- Toda idea de la columna "Educativo/Inspirador" debe evitar sonar a testimonio real no aprobado.
+- Español, tono sofisticado — sin emojis, sin em dashes.
+- Máximo 7 pilares — más diluye la matriz.
+
+---
+*Adaptado del skill open-source content-matrix (charlie947/social-media-skills) — julio 2026.*

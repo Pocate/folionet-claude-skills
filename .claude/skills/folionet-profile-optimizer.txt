@@ -1,0 +1,89 @@
+---
+name: folionet-profile-optimizer
+description: >
+  Rediseña el perfil de LinkedIn del CEO de Folionet — headline, about, experiencia, sección destacada, y 4 prompts de imagen — respetando las reglas de compliance de contenido regulado. Usar cuando se pida "optimizar mi perfil de LinkedIn", "arreglar mi LinkedIn", "reescribir mi headline", o al subir una captura/PDF del perfil actual para revisión.
+---
+
+# Folionet Profile Optimizer
+**Basado en:** profile-optimizer (Charlie Hills), adaptado para una firma regulada por FINRA/SEC — todo el copy pasa por `folionet-voice` antes de entregarse.
+
+## CRÍTICO: Auto-inicio
+Al activarse, ir directo al Paso 1.
+
+## Paso 1 — Recopilar inputs
+
+Preguntar (adaptado — sin lenguaje de venta agresiva, el objetivo ya está definido para Folionet):
+
+**Objetivo del perfil:** siempre es el mismo para Folionet — autoridad + discovery calls calificadas. No preguntar "booked calls / inbound leads" como en el original; ya sabemos que es autoridad regulatoria que conduce a una llamada de 20 min, sin presión.
+
+Preguntar solo lo específico:
+- ¿Colores de marca (hex)? Si no, usar los ya definidos en el brand kit de Folionet.
+- ¿Qué prueba social se puede mostrar? — *solo opciones aprobadas*: años operando, países con clientes (50+, dato verificado), registro regulatorio (FINRA/SEC). **Nunca** "resultados de clientes" o cifras de rendimiento como prueba social.
+- ¿Perfil actual? — pegar texto, empezar de cero, o subir captura/PDF.
+
+## Paso 2 — El Headline
+
+3 opciones, máximo 50 caracteres cada una, sentence case, sin título de puesto ("CEO" no aporta — el valor sí).
+
+Formato: [Valor central] + [para audiencia objetivo]
+
+Ejemplo de calibración correcta para Folionet:
+```
+Opción 1 (Directo): Asesoría de inversión regulada para LATAM
+Opción 2 (Enfoque en problema): Tu capital, gestionado por un asesor fiduciario
+Opción 3 (Diferenciador): Acceso al mercado americano — con respaldo SEC
+```
+
+**Prohibido en el headline:** cualquier cifra de rendimiento, "resultados garantizados", superlativos sin sustento ("el mejor", "líder en LATAM" sin fuente).
+
+## Paso 3 — La sección About
+
+Estructura: Gancho > Brecha que resuelve > Filosofía/Método > Autoridad regulatoria > CTA suave
+
+Reglas de tono (de folionet-voice, no negociables aquí):
+- Sin "empoderar", "transformar", "revolucionario".
+- Sin promesas de rendimiento en ningún punto del texto.
+- La autoridad se construye con datos verificables (años operando, registro SEC/FINRA, países con clientes) — nunca con cifras de resultados de clientes.
+- CTA final: invitación, nunca presión. Usar frases del CTA library de `folionet-content-system` (ej. "Si tienes capital que no está trabajando como debería, conversemos.").
+
+Footer obligatorio al final del About (regla de compliance para contenido de Folionet Advisers LLC):
+```
+Asesoría de inversión ofrecida a través de Folionet Advisers LLC,
+un Asesor de Inversiones Registrado. Folionet Financial LLC,
+miembro FINRA/SIPC.
+```
+
+## Paso 4 — Sección de Experiencia
+
+Reescribir el rol actual. Estructura: Contexto > Reto > Acción > Resultado — pero el "Resultado" debe ser operacional (ej. "construimos el acceso regulatorio para inversores LATAM"), nunca financiero/de rendimiento de clientes.
+
+Storytelling, no bullets. 8-15 oraciones máximo.
+
+## Paso 5 — Sección Destacada
+
+2 items máximo, ambos links externos:
+
+**Item 1 — Conversión principal:** link a discovery call. Título 3-5 palabras, beneficio, sin presión ("Conversemos sobre tu capital" — no "Agenda ahora").
+
+**Item 2 — Constructor de confianza:** newsletter, guía educativa, o página de Cuenta Asesorada. Nunca un caso de éxito de cliente sin aprobación de CCO.
+
+## Paso 6 — Brief de diseño visual
+
+4 prompts de imagen (banner, foto de perfil, 2 tiles destacados), mismo formato que el skill original, pero:
+- Sin badges de "resultados" o cifras de rendimiento en el diseño.
+- Incluir visualmente el badge de "Regulado por FINRA/SEC" como elemento de confianza si el diseño lo permite.
+- Colores de marca de Folionet, no genéricos de fintech.
+
+## REGLA FINAL — Revisión de compliance
+
+Antes de entregar el perfil completo, correr mentalmente el mismo checklist de `folionet-content-system`:
+- [ ] Sin promesas de rendimiento específico
+- [ ] Sin testimonios sin aprobación de CCO
+- [ ] Autoridad construida con datos verificables, no superlativos
+- [ ] CTA es invitación, no presión
+- [ ] Footer regulatorio presente en el About
+
+Si algo no pasa este checklist, señalarlo explícitamente antes de entregar el borrador — no corregirlo en silencio, para que quede visible qué se ajustó y por qué.
+
+---
+*Adaptado del skill open-source profile-optimizer (charlie947/social-media-skills) — julio 2026. Reescrito para cumplir con las reglas de compliance de una firma regulada por FINRA/SEC — el original está diseñado para coaches/consultores sin restricciones regulatorias.*
