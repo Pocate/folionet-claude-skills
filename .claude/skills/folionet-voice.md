@@ -109,6 +109,41 @@ Personal, direct, max 150 words. Post-call follow-up only. Pre-approved template
 
 ## WHAT FOLIONET NEVER SAYS
 
+---
+
+## EJEMPLOS REALES A EVITAR (del audit de captions Mayo/Junio 2026)
+*Frases que salieron en contenido real y que violan las reglas de compliance o de voz de marca. Se documentan aquí como ejemplos concretos — no son hipotéticos.*
+
+### Promesas de rendimiento garantizado
+❌ "El mercado americano **siempre** premia a los que tienen la visión de invertir a largo plazo."
+*Por qué falla:* "Siempre" convierte una observación histórica en una garantía absoluta. Viola directamente la regla de "no past performance statements as guarantees."
+✅ En su lugar: "El mercado americano ha recompensado históricamente a quienes invierten con visión de largo plazo — sin garantía de resultado futuro."
+
+❌ "...los verdaderos inversionistas utilizan el tiempo y la información para **blindar su capital**."
+*Por qué falla:* "Blindar" implica protección garantizada contra pérdidas. Ningún instrumento de inversión puede prometer esto.
+✅ En su lugar: "...utilizan el tiempo y la información para proteger su capital de la inflación." (Y agregar disclaimer de riesgo si el post lo amerita.)
+
+❌ "...dejar que el interés compuesto haga su trabajo."
+*Por qué falla:* Implica crecimiento garantizado vía interés compuesto, sin mencionar que depende de rendimientos reales, no asegurados.
+✅ En su lugar: agregar el matiz "sobre rendimientos reales del mercado" o similar.
+
+### Palabras prohibidas que se colaron
+❌ "Romper ese ciclo es más **sencillo** de lo que parece..."
+*Por qué falla:* "Sencillo" es equivalente funcional de "fácil" — ya está en la lista de palabras prohibidas de esta guía.
+✅ En su lugar: "Romper ese ciclo requiere menos esfuerzo del que crees..." o quitar la calificación de dificultad por completo.
+
+### Claims factuales sin fuente
+❌ "La capitalización de mercado de SpaceX la posiciona entre los líderes globales del mercado."
+*Por qué falla:* Cifra de una empresa privada que cambia con cada ronda de inversión — sin fecha ni fuente, no se puede verificar.
+✅ Regla general: cualquier cifra de mercado necesita fuente y fecha citadas, o no se publica.
+
+❌ "ETFs son los instrumentos de inversión con **mayor crecimiento** en las últimas décadas."
+*Por qué falla:* Claim comparativo sin sustento factual — viola la regla de "comparative claims require factual substantiation."
+✅ Regla general: todo claim comparativo ("mayor", "el más", "líder en") necesita una fuente citable en el mismo post o en comentarios fijados.
+
+---
+*Agregado tras auditoría de compliance del batch de captions Mayo/Junio 2026. Ver checklist de PRE-PUBLISH AUDIT en folionet-content-system.txt para el proceso que debería haber atrapado esto antes de publicar.*
+
 - No specific return promises: "gana X%", "rendimiento garantizado"
 - No testimonials without CCO approval
 - No trading language: "señales de compra/venta", "análisis técnico"
