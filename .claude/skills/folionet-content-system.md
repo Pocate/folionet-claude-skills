@@ -7,6 +7,14 @@
 ## CTA LIBRARY
 *Use these exact CTAs. Never invent new ones. Pick based on funnel stage.*
 
+### CTAs de captura por comentario (DM lead capture)
+*Usar cuando el objetivo es generar un DM calificado a partir de un post educativo.*
+- "Comenta '[PALABRA CLAVE]' y te envío la guía completa por privado."
+- "Escribe '[PALABRA CLAVE]' en los comentarios — te la mando por mensaje."
+- "¿Quieres la guía completa? Comenta '[PALABRA CLAVE]' y te la envío."
+
+*Regla: [PALABRA CLAVE] debe coincidir exactamente con el tema del post (ej. 'ETF' solo en posts de ETF, 'IPO' solo en posts de IPO). Nunca reciclar la palabra clave de un tema distinto — es el error que encontramos en el batch de Mayo/Junio 2026, donde un CTA de "ETF" quedó pegado a un post sobre IPOs.*
+
 ### CTAs de conversión directa (bottom funnel)
 - "¿Tienes capital que no está trabajando como debería? Conversemos. [LINK: discovery call]"
 - "¿Quieres saber si una Cuenta Asesorada es para ti? Una llamada de 20 minutos lo responde. [LINK: discovery call]"
