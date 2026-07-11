@@ -50,8 +50,27 @@ El plan original pide construir esto desde los "top 3 temas de tickets" reales. 
 
 ---
 
-## CUANDO LLEGUE EL AUDIT REAL DE TICKETS
-Reemplaza esta sección con los 3 temas reales de mayor volumen, y verifica si estas 3 hipótesis coinciden o no. Si no coinciden, no descartes estas guías — probablemente siguen siendo útiles, solo no son las 3 prioritarias.
+## TOP 10 REAL DE TICKETS DE SOPORTE
+*Fuente: data real de soporte, Julio 2026. Reemplaza las 3 hipótesis de la v0 de este documento — priorizar guías de autoservicio en este orden exacto.*
+
+1. Métodos de fondeo
+2. Métodos de retiro
+3. Balance / Efectivo
+4. Estatus de depósitos (Wires / Checkout)
+5. Margin to cash
+6. Vinculaciones pendientes
+7. Cómo activar reinversión de dividendos
+8. Estatus aprobación de cuenta
+9. Cuentas asesoradas
+10. Cuentas conjuntas / beneficiarios
+
+### Implicación para las guías de autoservicio
+Los primeros 4 temas (fondeo, retiro, balance, estatus de depósito) son temas operativos/transaccionales, no educativos. Esto sugiere que las guías de autoservicio más urgentes no son "cómo invertir" sino "cómo resolver una fricción operativa" — priorizar la construcción de estas 4 guías antes que contenido más educativo como "cómo activar reinversión de dividendos."
+
+### Implicación para contenido (cross-referencia con folionet-content-system)
+Los temas #1-4 y #8 son candidatos directos para contenido tipo FAQ en LinkedIn/Instagram — reducen carga de soporte Y sirven como contenido de utilidad real. Ángulo sugerido: "las 5 preguntas que más nos hacen" como serie, no un solo post.
+
+**Comparación con las 3 hipótesis originales de este documento:** las guías 1 y 2 (regulación/legitimidad, CA vs. Autogestionada) no aparecen en el top 10 real — probablemente siguen siendo útiles para conversión, pero no son las que generan volumen de tickets. Mantenerlas como contenido educativo, pero no como prioridad de soporte.
 
 ## SIGUIENTE PASO
 Estos 3 outlines están listos para pasar al equipo de diseño/soporte para convertir en artículos de knowledge base o video corto — no falta nada de marketing para avanzar con esto.
