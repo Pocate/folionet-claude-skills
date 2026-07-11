@@ -13,6 +13,14 @@
 - WhatsApp Business API — evaluación de costo/beneficio + implementación si se aprueba
 - Referral program — lanzar Opción A (relacional, sin incentivo formal) si el presidente lo aprobó
 
+- Mes 2, Semana 1-2 — Consolidar lo construido
+
+* Primer webinar "Mercado este mes" en vivo (usando `folionet-webinar`)
+* Confirmar y ejecutar el evento Tier 1 (cena CEO) — fecha ya debería estar fijada desde el Día 24
+* WhatsApp Business API — evaluación de costo/beneficio + implementación si se aprueba
+* Referral program — lanzar Opción A (relacional, sin incentivo formal) si el presidente lo aprobó
+  - **Insight real que confirma esta decisión** (data de soporte, Julio 2026): el driver principal de referidos no es un incentivo económico — es el tiempo de respuesta y calidad del soporte...
+
 ### Mes 2, Semana 3-4 — Optimizar con datos reales
 - Primera revisión mensual completa con `folionet-data` — ¿qué pilares de contenido funcionan mejor?
 - Ajustar calendario de contenido según performance real, no hipótesis
