@@ -9,6 +9,14 @@ Load this before writing any content for Folionet — LinkedIn posts, emails, ca
 ## THE BRAND IN ONE LINE
 "Enseñamos a los latinoamericanos a invertir como los americanos."
 
+⚠️ **Nota de compliance — pendiente de aprobación antes de uso público amplio:**
+Esta frase puede leerse de dos formas. La lectura segura (intencionada): acceso a las mismas herramientas y mercados que un inversionista estadounidense — un argumento de acceso, no de resultado. La lectura riesgosa (no intencionada): podría sonar a promesa implícita de rendimiento ("invertir como los americanos" = "ganar como ellos"), lo cual violaría la regla de no promesas de rendimiento de este mismo documento. Confirmar con CCO que el contexto de uso deja clara la lectura de acceso antes de usarla en ads pagados o piezas de mayor escrutinio regulatorio.
+
+**Variante con matiz explícito** (si compliance pide más claridad, especialmente en ads pagados):
+"Acceso al mercado americano, con la misma claridad y herramientas — para el inversionista latinoamericano."
+
+---
+
 ---
 
 ## COMPANY FACTS (verified from documents)
@@ -64,7 +72,46 @@ Top performing posts by interactions:
 - Posting about specific IPOs = lower engagement than behavioral/insight posts
 
 ---
+**The reference:** Morgan Housel's way of talking about money — behavior and ideas, not charts and signals. The CEO speaks like someone who thinks deeply about how money actually works in people's lives.
 
+---
+
+## CAPA DE ESTATUS / EXCLUSIVIDAD
+*Agregado tras sesión de estrategia — expande el punto "Aspirational but grounded" de arriba. El equipo quiere que la marca se sienta como un estatus, no solo un servicio — esto define cómo lograrlo sin cruzar a exageración (que sigue prohibida por compliance).*
+
+### La diferencia clave: estatus por criterio, no por precio ostentoso
+
+Una marca de lujo tradicional vende exclusividad por precio o escasez ("esto es caro, por eso es especial"). Folionet no puede vender así — es una firma regulada, no puede sonar a producto de lujo aspiracional tipo reloj o auto. **La exclusividad de Folionet viene de otro lugar: criterio, discreción, y acceso a algo que la mayoría no sabe que existe.**
+
+Esto se traduce en:
+
+- **Habla como quien ya llegó, no como quien está vendiendo llegar.** El tono asume que el lector ya tiene capital y ya piensa en términos de gestión seria — no le explica "cómo empezar a ahorrar", le habla de igual a igual sobre gestión de patrimonio.
+- **La exclusividad es de acceso a información, no de precio.** "Esto que te estoy explicando, casi nadie en LATAM te lo ha explicado en español" es un ángulo de estatus válido — no requiere mencionar cifras ni comparar precios.
+- **Menos volumen, más peso por pieza.** Contenido que se siente curado y poco frecuente comunica más estatus que contenido diario y masivo.
+- **El silencio también comunica.** No hace falta llenar cada post de datos y CTAs — una frase que se sostiene sola, sin urgencia, comunica más confianza que un post que empuja.
+
+### Palabras y frames que SÍ elevan el estatus (sin ser promesa de rendimiento)
+- "Gestión de patrimonio" en vez de "invertir tu dinero"
+- "Criterio" y "disciplina" en vez de "estrategia ganadora"
+- "Acceso" en vez de "oportunidad" (oportunidad suena a urgencia de venta; acceso suena a privilegio ya ganado)
+- Referencias a tiempo/paciencia como signo de sofisticación ("el patrimonio se construye en silencio, no en titulares")
+
+### Lo que NO se vuelve aspiracional en Folionet (líneas rojas, no negociables)
+- **Nunca asociar con marcas de lujo de forma literal** (autos, relojes, moda) — eso es apropiación de estatus ajeno, no construcción de estatus propio.
+- **Nunca excluir explícitamente a quien tiene menos capital** ("esto no es para cualquiera") — la exclusividad se comunica por el tono, nunca rechazando activamente a alguien. Podría chocar con reglas de no-discriminación en servicios financieros.
+- **Nunca cambiar el mínimo de inversión como mecanismo de exclusividad de marketing** — eso es una decisión de producto/negocio pendiente de confirmación con liderazgo, no algo que el voice guide decida por su cuenta.
+
+### Ejemplo de calibración — mismo mensaje, dos versiones
+
+❌ **Demasiado genérico (lo que hace hoy):**
+"Invertir en el mercado americano nunca fue tan accesible. ¡Empieza hoy!"
+
+✅ **Con capa de estatus (sin cruzar a exageración):**
+"Hay una diferencia entre tener dinero y saber qué hacer con él. La segunda parte es la que casi nadie enseña en español."
+
+---
+
+## TONE BY CHANNEL
 ## TONE BY CHANNEL
 
 **Instagram (primary channel — 37K followers)**
