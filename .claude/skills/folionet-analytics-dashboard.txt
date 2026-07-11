@@ -1,0 +1,136 @@
+---
+name: folionet-analytics-dashboard
+description: >
+  Analiza los exports de Metricool (posts, reels, stories en CSV) y genera un reporte de qué está funcionando, con recomendaciones concretas que se conectan directo a folionet-content-calendar, folionet-content-system, y folionet-content-matrix. Usar cuando se suban nuevos CSVs de Metricool, se pida "analiza mi contenido", "qué está funcionando", "revisa el performance", o "actualiza el calendario con datos reales".
+---
+
+# Folionet Analytics Dashboard
+**Basado en:** analytics-dashboard (Charlie Hills), reescrito para leer exports de Metricool (Instagram: posts, reels, stories) en vez de export de LinkedIn Analytics.
+**Baseline actual:** construido con 3 meses de data real (10 abr – 10 jul 2026). Ver benchmarks abajo — no partir de cero cada vez, comparar contra estos números.
+
+## CRÍTICO: Auto-inicio
+Al activarse con archivos CSV adjuntos, ir directo al Paso 1. No preguntar qué hacer con los archivos si sus nombres coinciden con el patrón `instagram-posts_*`, `instagram-reels_*`, `instagram-stories_*`.
+
+---
+
+## Paso 1 — Cargar y validar los CSVs
+
+Formatos esperados (Metricool export estándar):
+
+**`instagram-posts_*.csv`** — columnas clave: `Timestamp`, `Content`, `type`, `Reach (Organic)`, `Interactions`, `Engagement`, `Likes`, `Saved`, `Comments`, `Shares`
+
+**`instagram-reels_*.csv`** — columnas clave: `date`, `title`, `Reach (Organic)`, `Interactions (Organic)`, `Engagement (Organic)`, `% View rate (+3 secs)`
+
+**`instagram-stories_*.csv`** — columnas clave: `Timestamp`, `Content`, `Impressions (Organic)`, `Reach (Organic)`, `Replies`, `Taps Back`, `Taps Forward`, `Exits`
+
+Si falta alguno de los 3, continuar con los que sí estén disponibles y decirlo explícitamente en el reporte ("no se incluyeron reels en este análisis — no se subió el archivo").
+
+**Nota de fórmula:** `Engagement` en el export de Metricool ya viene calculado como `Interactions / Reach (Organic) * 100` — no recalcular, pero sí verificar que cuadre si algo se ve raro.
+
+## Paso 2 — Calcular métricas clave
+
+Para **posts**:
+- Promedio de engagement, reach, interactions
+- Top 10 y bottom 5 por engagement (mostrar primera línea del `Content`, no el texto completo)
+- Desglose por día de la semana (`Timestamp` → weekday) — promedio de interactions y engagement
+- Desglose por hora de publicación
+- Tendencia mensual (engagement promedio por mes — ¿sube, baja, estable?)
+- Correlación reach vs. engagement (nota: suelen ir inversos — más reach diluye el % de engagement, esto es normal, no una alarma)
+
+Para **reels**:
+- Mismas métricas — comparar directamente contra el promedio de posts (reels casi siempre gana en engagement %, ver benchmark abajo)
+- % View rate (+3 segs) como proxy de qué tan bueno es el hook de los primeros segundos
+
+Para **stories**:
+- Exit rate = `Exits / Impressions (Organic)` (excluir filas con impresiones = 0)
+- Forward rate = `Taps Forward / Impressions (Organic)`
+- Replies como señal de interacción activa (poco común, cualquier valor >0 es una señal fuerte)
+
+## Paso 3 — Clasificar por pilar de contenido
+
+Usar los 7 ángulos ya definidos en `folionet-linkedin-30posts` / `folionet-content-matrix` para etiquetar cada post según su `Content`:
+
+1. **Mito** — palabras clave: "no es", "mito", "creencia equivocada", "en realidad"
+2. **Dato** — cifras, "%", "millones", "billones", nombres de índices/empresas
+3. **Historia CEO / Autoridad** — primera persona, experiencia personal
+4. **Categoría (CA)** — "Cuenta Asesorada", "asesor", "gestión experta"
+5. **Brecha de conocimiento** — "¿sabías que...?", "lo que nadie te explica"
+6. **Costo del status quo** — inflación, "erosiona", capital ocioso
+7. **Comparación** — "vs.", contraste explícito entre dos opciones
+8. **Motivacional genérico** *(no es uno de los 7 oficiales — es la categoría de alerta)* — afirmación inspiradora sin mito/dato/framework específico detrás (ej. "El conocimiento es el activo con mayor retorno"). **Marcar explícitamente cuando aparezca** — el benchmark v1 muestra que es el ángulo de peor desempeño.
+
+Agrupar el performance promedio por pilar y señalar cuál(es) está(n) ganando.
+
+## Paso 4 — Generar el reporte
+
+Formato de salida:
+
+```
+📊 ANALYTICS REPORT — [rango de fechas]
+
+RESUMEN EJECUTIVO
+[3-4 líneas: qué cambió vs. el periodo anterior o vs. el benchmark v1]
+
+TOP 5 POSTS
+[tabla: fecha, primera línea, pilar, engagement, saves, shares]
+
+BOTTOM 3 POSTS
+[misma tabla — para identificar qué evitar]
+
+REELS VS. POSTS
+[comparación directa de engagement promedio]
+
+MEJOR DÍA / HORA
+[hallazgo + cuántos posts sustentan esa conclusión — si es data insuficiente, decirlo]
+
+PILAR GANADOR
+[cuál de los 7 ángulos + la categoría de alerta "motivacional genérico" rinde mejor/peor]
+
+TENDENCIA
+[¿engagement sube o baja mes a mes?]
+
+── RECOMENDACIONES ACCIONABLES (máximo 5) ──
+[conectadas directamente a folionet-content-calendar y folionet-content-system — ver Paso 5]
+```
+
+## Paso 5 — Conectar con el resto del sistema (esto es lo que lo diferencia de un reporte suelto)
+
+Las recomendaciones del Paso 4 deben mapearse a acciones concretas en otros skills, no quedarse como observaciones sueltas:
+
+- Si un pilar/ángulo específico está ganando → sugerir explícitamente rebalancear `folionet-content-calendar` hacia ese pilar en las próximas semanas.
+- Si reels rinden mejor que posts → sugerir aumentar la frecuencia de reels en el calendario semanal (`folionet-content-system` → `CALENDARIO DE DISTRIBUCIÓN SEMANAL`).
+- Si el CTA de comentario/DM está generando comentarios altos → confirmar que se siga usando el bloque `CTAs de captura por comentario` de la CTA library.
+- Si el ángulo "motivacional genérico" aparece con bajo desempeño → recomendar generar la próxima ronda de ideas con `folionet-content-matrix`, que fuerza a cruzar un pilar real con un formato, evitando caer en motivacional sin sustento.
+- Si un hallazgo previo de este dashboard llevó a un cambio (ej. "aumentamos reels") → la próxima corrida debe comparar explícitamente si ese cambio funcionó, no solo repetir el análisis desde cero.
+
+## Paso 6 — Actualizar el log de benchmarks
+
+Al final del reporte, preguntar:
+> ¿Actualizo el BENCHMARK LOG de este skill con los números de este periodo, para que la próxima corrida compare contra esto en vez del baseline original?
+
+Si se confirma, agregar una fila nueva a la tabla de abajo.
+
+---
+
+## BENCHMARK LOG
+*Referencia para saber si un número nuevo es bueno, malo, o normal. No recalcular desde cero cada vez — comparar contra esto.*
+
+| Periodo | Posts | Engagement prom. posts | Engagement prom. reels | Mejor pilar | Peor pilar |
+|---|---|---|---|---|---|
+| 10 abr – 10 jul 2026 (v1, baseline) | 23 | 7.69% | 14.8% | Framework accionable / Mito | Motivacional genérico |
+
+**Hallazgos clave del baseline (no repetir el análisis para redescubrir esto — ya se sabe):**
+- Reels tienen ~2x el engagement de posts — pero solo se publicó 1 reel/mes en el baseline. Oportunidad clara de aumentar frecuencia.
+- El post de mejor desempeño histórico fue un framework simple ("Tu perfil de inversión define tu estrategia..."), no una cifra o dato de impacto.
+- Los posts de mitos/definiciones (ETF, S&P 500) generan más "saves" que cualquier otro tipo — la audiencia los guarda para releer.
+- El ángulo "motivacional genérico" (afirmación inspiradora sin mito/dato detrás) es consistentemente el de peor desempeño Y el de mayor riesgo de compliance — doble razón para evitarlo.
+- El CTA "Comenta [palabra clave]" generó 101 comentarios en su único uso registrado, muy por encima del promedio (13) — validado, usar más.
+- 18:00 es la hora dominante de publicación (19 de 23 posts) — no hay suficiente variación en la data para confirmar si es la hora óptima o solo la costumbre.
+
+---
+
+## UPDATE LOG
+- v1 — Julio 2026 — construido con 3 meses de data real de Metricool (Instagram posts, reels, stories). Primera corrida completa.
+
+---
+*Adaptado del skill open-source analytics-dashboard (charlie947/social-media-skills) — reescrito para Metricool en vez de LinkedIn Analytics, julio 2026.*
