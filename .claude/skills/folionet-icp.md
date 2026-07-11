@@ -157,6 +157,34 @@ This is what the ICP goes through — content should reference this process natu
 - Tone: sophisticated but warm. Like a trusted advisor, not a salesperson.
 
 ---
+## BARRERAS REALES — DATA DE SOPORTE (Julio 2026)
+*Reemplaza cualquier hipótesis anterior sobre fricción de onboarding u objeciones de venta. Esta es data real de soporte/ventas, no suposición.*
+
+### Top 3 razones de abandono en el proceso de apertura
+
+1. **Residentes de Venezuela** — nota de compliance abajo, no es una fricción resolvible con mejor copy.
+2. **Personas sin SSN/ITIN** — fricción de elegibilidad, no de UX.
+3. **Errores en onboarding** — esta sí es accionable: fricción de producto/UX, candidata directa para el mapa de integración (`12-integration-map.md`) y las guías de autoservicio.
+
+⚠️ **Nota de compliance — importante:** el punto 1 (residentes de Venezuela) probablemente refleja una restricción regulatoria o de riesgo, no una objeción de marketing que se pueda "resolver" con mejor contenido. **No crear contenido que intente atraer o prometer solución a este segmento** sin confirmación explícita de compliance/legal sobre qué se puede comunicar al respecto. Esto es diferente a los otros 2 puntos, que sí son friction de producto/elegibilidad.
+
+### Top 3 objeciones antes de abrir una Cuenta Asesorada
+
+1. **Quieren operar por su cuenta** — exposición a mercados/sectores que no están reflejados en los portafolios de Folionet.
+2. **Mínimo muy alto** — objeción de precio/acceso.
+3. **Expectativas de retorno más altas** — creen que pueden conseguir mejores resultados solos.
+
+### Cómo esto cambia el enfoque de contenido
+
+Estas 3 objeciones son la base real para una categoría de contenido que no teníamos definida: **contenido de manejo de objeciones**, distinto de los 7 ángulos existentes.
+
+**Objeción 1 (control/exposición):** contenido que explique por qué la disciplina de un portafolio gestionado supera el stock-picking individual — sin desacreditar la autogestión como opción (Folionet también la ofrece).
+
+**Objeción 2 (mínimo alto):** contenido que reencuadre el mínimo como filtro de seriedad/servicio, no como barrera arbitraria — nunca prometer que "vale la pena" en términos de retorno, sino en términos de servicio (asesor dedicado, atención personalizada).
+
+**Objeción 3 (expectativas de retorno):** la más delicada de compliance — cualquier contenido que la aborde debe evitar comparar rendimientos esperados de autogestión vs. CA. Enfocar en el valor de la disciplina, diversificación, y gestión de riesgo — nunca en "vas a ganar más con nosotros."
+
+---
 
 ## UPDATE LOG
 - v0 — June 24 2026 — built from diagnostic data + industry research + meeting notes
