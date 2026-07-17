@@ -18,6 +18,31 @@
 ## MONTH 1 — FOUNDATION
 *Theme: Define the category. Who Folionet is. What a Cuenta Asesorada is. Why it matters.*
 
+LinkedIn (company page)	1x/week	Friday	Repurpose CEO post or data visual
+
+## PODCAST COMO INPUT RECURRENTE DEL CALENDARIO
+*Agregado tras el análisis de los primeros 2 episodios grabados — el podcast deja de ser un proyecto aparte y se vuelve una fuente regular de contenido para LinkedIn.*
+
+### El pipeline
+1. CEO graba un episodio (30-40 min)
+2. Transcribir (TurboScribe u otra herramienta) → texto
+3. Correr folionet-podcast-extractor sobre el texto
+4. De cada episodio salen normalmente:
+   - 1 episodio completo (para el feed de podcast / YouTube)
+   - 2-3 clips de video para LinkedIn (30-90 seg cada uno)
+   - 3-5 ángulos de post de texto (folionet-content-system)
+   - 0-2 conexiones directas con objeciones/FAQ reales ya documentadas
+5. Filtro de compliance obligatorio ANTES de publicar cualquier clip (ver folionet-podcast-extractor, Paso 4 — el habla espontánea tiene más riesgo que el copy escrito y auditado)
+6. Los clips de video van al calendario como contenido de LinkedIn — mismo trato que un reel de Instagram: prioridad alta, dado que el video rinde mejor que el texto estático en ambas plataformas
+
+### Frecuencia sugerida
+1 episodio cada 2 semanas es suficiente para alimentar el calendario sin que la producción se vuelva un cuello de botella — cada episodio ya rinde varias piezas, no hace falta grabar semanalmente.
+
+### Regla de compliance específica del podcast
+El habla en vivo no pasa por el mismo filtro que el copy escrito antes de "salir" — por eso cada episodio nuevo necesita pasar por folionet-podcast-extractor completo (incluyendo el Paso 4 de flags) antes de que cualquier fragmento se use en cualquier canal, aunque sea solo una cita corta.
+
+MONTH 1 — FOUNDATION
+
 ### Week 1
 | Day | Channel | Post Code | Topic | CTA |
 |-----|---------|-----------|-------|-----|
