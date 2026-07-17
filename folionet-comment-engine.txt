@@ -1,0 +1,61 @@
+---
+name: folionet-comment-engine
+description: >
+  Genera 5 comentarios específicos por semana para que el CEO deje en posts de otras personas en LinkedIn — mostrando autoridad sin sonar promocional. Usar cuando se pida "dame comentarios para LinkedIn", "en qué posts debería comentar", o "genera el motor de comentarios de la semana".
+---
+
+# Folionet Comment Engine
+**Por qué existe:** publicar contenido propio no es lo único que hace crecer un perfil de LinkedIn — comentar con inteligencia en posts de otros construye autoridad de forma más barata y frecuente. Esto es un motor recurrente, no un ajuste único de perfil.
+
+## CRÍTICO: Auto-inicio
+Al activarse, ir directo al Paso 1.
+
+---
+
+## Paso 1 — Identificar dónde comentar (4 categorías, en orden de prioridad)
+
+1. **Posts de figuras de la industria hablando de mercado/noticias** (ej. alguien comentando la decisión de la Fed, tendencias de inversión LATAM) — aquí el CEO aporta su perspectiva de 20 años sin pitchear nada.
+2. **Posts de competidores** (Quiena, Hapi, Trii, Ualá) — comentar de forma respetuosa y con valor real, NUNCA descalificando. Esto es delicado: un comentario mal calibrado en el post de un competidor se ve peor que no comentar. Ver regla de compliance abajo.
+3. **Posts de perfiles tipo ICP** (ejecutivos, profesionales LATAM hablando de finanzas personales, ahorro, o su propia experiencia invirtiendo) — aquí se construye relación con clientes potenciales reales, no solo autoridad abstracta.
+4. **Posts de periodistas/medios financieros en español** — comentar con un dato o matiz que el post no cubrió, posiciona al CEO como fuente experta.
+
+## Paso 2 — Generar el comentario (no la lista de dónde comentar — eso lo hace la persona, buscando posts reales esa semana)
+
+Dado un post real (el usuario pega el texto o describe el tema), generar 1 comentario que:
+- Tenga 1-3 oraciones — nunca un párrafo largo, se ve que se está buscando protagonismo
+- Agregue algo que el post NO dijo — nunca repetir o solo validar ("Totalmente de acuerdo!")
+- Suene a la voz auténtica del CEO (ver `folionet-voice`, especialmente los patrones reales del podcast — humildad activa antes de autoridad)
+- NUNCA incluya un link — los comentarios con link suelen ser suprimidos por el algoritmo de LinkedIn y se ven a spam
+- NUNCA mencione a Folionet a menos que sea genuinamente relevante al hilo — el objetivo es autoridad, no promoción disfrazada
+
+## Paso 3 — Filtro de compliance específico para comentarios en posts de competidores
+
+Antes de sugerir cualquier comentario en un post de Quiena, Hapi, Trii, o Ualá:
+- ❌ Nunca comparar directamente ("nosotros hacemos esto mejor")
+- ❌ Nunca corregir públicamente de forma que suene condescendiente
+- ✅ Sí se puede agregar una perspectiva regulatoria/educativa genuina que aplique en general, sin apuntar al competidor específico
+- Si hay duda de que el comentario pueda leerse como ataque, no sugerirlo — sugerir en su lugar comentar en la categoría 1, 3, o 4 esa semana
+
+## Paso 4 — Formato de salida
+
+```
+🗨️ COMENTARIOS DE LA SEMANA
+
+[Categoría] — sobre post de: [breve descripción del post/tema]
+Comentario sugerido: "[texto exacto, 1-3 oraciones]"
+
+[repetir x5]
+```
+
+## Paso 5 — Registro simple (opcional, si se quiere trackear qué funciona)
+Si el equipo quiere, anotar qué comentarios generaron respuestas o nuevas conexiones — esto alimenta al `folionet-analytics-dashboard` como una señal más de qué tipo de interacción funciona, aunque LinkedIn no dé data de comentarios tan fácil como de posts propios.
+
+---
+
+## REGLA GENERAL
+Este motor es de **bajo costo y alta frecuencia** — a diferencia de un post (que requiere generación + audit + aprobación), un comentario bien calibrado puede sugerirse y publicarse casi al instante, siempre que pase el filtro del Paso 3. No debería tomar más de 10-15 minutos a la semana identificar 5 posts reales y generar los comentarios.
+
+---
+
+## UPDATE LOG
+- v0 — Julio 2026 — construido a partir de un framework externo de crecimiento en LinkedIn, adaptado a las reglas de compliance y voz de Folionet.
