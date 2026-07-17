@@ -11,13 +11,27 @@
 
 ## DIFERENCIACIÓN COMPETITIVA — TENER SIEMPRE PRESENTE
 
-Investigación de competencia (Julio 2026) confirmó: el único competidor directo real es **Quiena Inversiones** (mismo modelo RIA, pero frío/automatizado). El resto (Hapi, Ualá, Trii) son brokers autogestionados — audiencia distinta, no compiten por el mismo servicio.
+*Actualizado — la lista de competidores confirmada por el equipo (fuente: folionet-pitch.md, sección "Competitors according to the company itself") reemplaza la mención anterior de Quiena, que no coincidía con la fuente oficial.*
+
+**Competidores directos confirmados:** Hapi, eToro, Interactive Brokers.
+**Competidores indirectos:** Robinhood, Wealthfront, Betterment.
 
 **El ángulo diferenciador central que todo contenido debe reforzar cuando sea relevante:**
-> "Asesor humano y regulado — no un algoritmo frío (como Quiena) ni trading gamificado (como Hapi/Trii)."
+> "Asesor humano y regulado, con gestión activa — no una app de trading autogestionado (como Hapi/eToro/Interactive Brokers) ni un robo-advisor genérico (como Wealthfront/Betterment)."
 
 **Reglas prácticas derivadas de esto:**
-[... esto es lo que falta ...]
+
+1. **Nunca posicionar a Folionet contra Hapi/eToro/Interactive Brokers en términos de features de trading** (comisiones, velocidad, número de acciones disponibles) — esa es su cancha. Folionet compite en gestión experta y relación humana, no en herramientas de autogestión.
+
+2. **Contra Wealthfront/Betterment (robo-advisors), el diferenciador es "humano regulado" vs. "algoritmo genérico"** — nunca nombrar a estos competidores directamente en contenido público sin aprobación de CCO, pero el concepto "asesor real, no un algoritmo" sí se puede usar como ángulo educativo.
+
+3. **El contenido educativo sobre "por qué elegir un asesor" debe enfatizar la relación humana** (asesor dedicado, conversación real, entendimiento del contexto individual) — no solo "mejor tecnología," porque eso es terreno de los competidores autogestionados.
+
+4. **Nunca usar lenguaje de gamificación** (streaks, logros, recompensas por operar más) — eso refuerza exactamente el modelo del que Folionet se diferencia.
+
+5. **Cuando se hable de la Cuenta Autogestionada como producto propio de Folionet**, aclarar que es una opción dentro de un ecosistema regulado con soporte humano disponible — no venderla con el mismo lenguaje que usaría un competidor 100% autogestionado como Hapi o eToro.
+
+*Nota de reconciliación: una versión anterior de este documento mencionaba a "Quiena" como el único competidor directo real. Esa referencia no coincide con la lista confirmada por el equipo en folionet-pitch.md y debe considerarse obsoleta.*
 
 ## REFERENCIA — FLUJO DE ONBOARDING
 *Fuente: Guía de Onboarding oficial de Folionet. Usar estos pasos exactos cuando el contenido hable del proceso de apertura de cuenta — nunca inventar o simplificar pasos.*
